@@ -1,1 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
 .env
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+__pycache__/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Other
+.DS_Store
