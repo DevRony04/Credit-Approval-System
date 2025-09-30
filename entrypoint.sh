@@ -2,6 +2,7 @@
 set -e
 
 python manage.py collectstatic --noinput || true
+python manage.py makemigrations app --noinput || true
 python manage.py migrate --noinput
 python manage.py ingest_data || true
 
